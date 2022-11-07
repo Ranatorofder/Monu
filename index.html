@@ -28,7 +28,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-top fixed-top p-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="images/01_HomePage.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -103,6 +105,22 @@
         </div>
 
     </div>
+
+    <!-- <div class="container-fluid baner-bg-img">
+        <div class="row">
+            <div class="col"> -->
+                <!-- Swiper -->
+                <!-- <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <section class="pb-5 content-main">
         <div class="container content-wrap py-3 text-white bg-primary">
@@ -186,7 +204,7 @@
         ------------------>
 
     <section class="py-5">
-        <div class="container-fluid">
+        <div class="container-fluid container-service-main">
             <div class="row gx-5">
                 <div class="col-md-3">
                     <div class="text-center p-4 service-contant  border">
@@ -441,8 +459,21 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <div class="swiper mySwiper ">
+                                <div class="swiper mySwiper-two ">
                                     <div class="swiper-wrapper">
+                                        <div class="swiper-slide slider-one">
+                                            <div class="slider-one py-5">
+                                                <h3 class="blue">Theresa Rodgers</h3>
+                                                <p>Developer</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod
+                                                    tempor
+                                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis
+                                                    nostrud
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                            </div>
+                                        </div>
                                         <div class="swiper-slide slider-one">
                                             <div class="slider-one py-5">
                                                 <h3 class="blue">Theresa Rodgers</h3>
@@ -466,7 +497,39 @@
         </div>
     </section>
 
-    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="swiper mySwiper-three">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/logo-1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/logo-2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/logo-3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/logo-4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/logo-5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/logo-1.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
@@ -510,8 +573,43 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper-one", {
             slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper-two", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper-three", {
+            slidesPerView: 5,
             spaceBetween: 30,
             loop: true,
             pagination: {
