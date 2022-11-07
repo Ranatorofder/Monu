@@ -1,0 +1,89 @@
+
+
+
+/*--------------- 
+  navbar-start 
+--------------------*/
+
+
+.navbar-top{
+    background-color: #ffffff1a;
+    /* z-index: -1; */
+}
+
+/*--------------- 
+  navbar-end
+--------------------*/
+
+
+
+
+/*--------------- 
+  carousel-start 
+--------------------*/
+
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+    /* z-index: 44444; */
+}
+
+.carousel-caption h2 {
+    font-size: 72px;
+    color: #595959;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    color: #343434;
+
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595959;
+
+}
+
+.btn-one:hover {
+    color: #212529 !important;
+
+}
+
+.blue {
+    color: #0d6efd;
+}
+
+/*--------------- 
+  carousel-end 
+--------------------*/
+
+.content-main{
+    position: absolute;
+    bottom: -18%;
+    left: 7%;
+}
+
+.content-wrap{
+    border-radius: 15px;
+}
+.content-text h2{
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+.content-text p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
