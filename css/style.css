@@ -1,12 +1,9 @@
-
-
-
 /*--------------- 
   navbar-start 
 --------------------*/
 
 
-.navbar-top{
+.navbar-top {
     background-color: #ffffff1a;
     /* z-index: -1; */
 }
@@ -69,21 +66,95 @@
   carousel-end 
 --------------------*/
 
-.content-main{
+.content-main {
     position: absolute;
     bottom: -18%;
     left: 7%;
 }
 
-.content-wrap{
+.content-wrap {
     border-radius: 15px;
 }
-.content-text h2{
+
+.content-text h2 {
     font-size: 22px;
     margin-bottom: 7px;
 }
-.content-text p{
+
+.content-text p {
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.Wordpress-content h2 {
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+hr {
+    width: 50px;
+    height: 2px;
+    opacity: 1;
+}
+
+.Wordpress-content a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595959;
+}
+
+.service-contant a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595959;
+}
+
+.service-contant{
+    transition: all .3s;
+}
+
+.service-contant:hover {
+    background-color: #000000b5;
+}
+.service-contant:hover h4{
+    color: white;
+}
+.service-contant:hover a{
+    color: white;
+    border: 1px solid #0d6efd ;
+}
+
+/*-----------
+    card 
+-------------*/
+
+.card-body a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #595959;
+  
+}
+
+.card-two{
+    /* background-color: azure; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
