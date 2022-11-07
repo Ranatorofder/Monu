@@ -18,7 +18,9 @@
 /*--------------- 
   carousel-start 
 --------------------*/
-
+body {
+    /* overflow: hidden !important; */
+}
 
 .carousel-item {
     position: relative;
@@ -124,26 +126,31 @@ hr {
     color: #595959;
 }
 
-.service-contant{
+.service-contant {
     transition: all .3s;
 }
 
 .service-contant:hover {
     background-color: #000000b5;
 }
-.service-contant:hover h4{
+
+.service-contant:hover h4 {
     color: white;
 }
-.service-contant:hover a{
+
+.service-contant:hover a {
     color: white;
-    border: 1px solid #0d6efd ;
+    border: 1px solid #0d6efd;
 }
 
 /*-----------
     card 
 -------------*/
+.card-wrap {
+    background-color: #e7e8fe;
+}
 
-.card-body a{
+.card-body a {
     text-decoration: none;
     border: 1px solid;
     padding: 10px 30px;
@@ -151,10 +158,39 @@ hr {
     font-size: 15px;
     font-weight: bold;
     color: #595959;
-  
+
 }
 
-.card-two{
+.card-one {
+    background: none;
+}
+
+.card-two {
     /* background-color: azure; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-overley {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-overley-contant-icon {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 356px;
+    background-color: #f9f9f9e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
+
+}
+
+.img-overley:hover .img-overley-contant-icon {
+   opacity: 1;
+    transform: scale(.86);
 }
