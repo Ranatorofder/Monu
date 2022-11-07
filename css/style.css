@@ -191,6 +191,29 @@ hr {
 }
 
 .img-overley:hover .img-overley-contant-icon {
-   opacity: 1;
+    opacity: 1;
     transform: scale(.86);
+}
+
+.pricing h2 {
+    font-size: 24px;
+    color: #3f3f3f;
+    font-weight: 500 !important;
+}
+
+.pricing p {
+    font-weight: 400;
+    line-height: 2;
+}
+
+
+.pricing a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #595959 !important;
+
 }
