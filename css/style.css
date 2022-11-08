@@ -230,6 +230,19 @@ hr {
     overflow: hidden;
 }
 
+.counter-up i{
+    /* line-height: 15px; */
+    font-size: 30px !important;
+}
+.counter-up h2{
+    /* line-height: 15px; */
+    font-size: 30px !important;
+}
+.counter-up {
+    /* line-height: 15px; */
+    font-size: 15px !important;
+}
+
 .img-overley-contant-icon {
     position: absolute;
     top: 0;
