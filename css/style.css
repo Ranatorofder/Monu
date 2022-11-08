@@ -150,6 +150,17 @@ hr {
     overflow: hidden;
 }
 
+
+
+.background-image{
+    background-image: url(../images/benner-bg.png);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .Wordpress-content a {
     text-decoration: none;
     border: 1px solid;
@@ -289,4 +300,42 @@ hr {
 
 .slider-one h3 {
     font-size: 24px;
+}
+
+.footer-text p {
+    font-size: 15px;
+    color: #777777;
+    line-height: 15px;
+}
+
+.footer-text ul li {
+    font-size: 15px;
+    color: #777777;
+    /* line-height: 25px; */
+}
+
+.footer-text .Useful {
+    visibility: hidden;
+}
+
+.footer-img-text {
+    padding-left: 18px;
+}
+
+.footer-img-text h5 {
+    font-size: 17px;
+    color: #777777;
+}
+
+.horizontal {
+    border: 1px solid black !important;
+
+}
+
+.footer-font p {
+    color: #777777;
+    font-size: 12px;
+}
+.red{
+    color: red;
 }
