@@ -59,10 +59,9 @@
     display: none;
 }
 
-.hidden {
-    visibility: hidden;
+.Wordpress-content-main {
+   margin-top: 100px;
 }
-
 
 
 
@@ -205,8 +204,7 @@
     }
 
     .Wordpress-content-main {
-        padding-top: 0 !important;
-    }
-
+        margin-top: 0px;
+     }
     
 }
