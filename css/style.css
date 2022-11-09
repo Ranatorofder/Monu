@@ -50,10 +50,13 @@
 --------------------*/
 
 .content-main {
-    /* position: absolute;
-    bottom: -21%;
-    left: 7%; */
+    bottom: -22%;
+    left: 7%;
     z-index: 1 !important;
+}
+
+.content-main-two {
+    display: none;
 }
 
 .hidden {
@@ -142,21 +145,13 @@
 }
 
 .slider-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-color: #f9f9f9b0;
 }
 
-.slider-one h3 {
-    font-size: 24px;
-}
-
 .footer-text p {
-    font-size: 15px;
     color: #777777;
+    font-size: 15px;
+
     line-height: 15px;
 }
 
@@ -193,3 +188,25 @@
     color: red;
 }
 
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+
+@media (max-width: 660px) {
+    .content-main {
+        position: static !important;
+    
+
+
+    }
+
+    .Wordpress-content-main {
+        padding-top: 0 !important;
+    }
+
+    
+}
