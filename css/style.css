@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* overflow: hidden; */
-}
-
 /*--------------- 
   navbar-start 
 --------------------*/
@@ -24,27 +17,19 @@
 }
 
 
+.gray {
+    color: #595959;
 
-/*-------------
-   top-baner 
- ----------------*/
-
+}
 
 .baner-bg-img {
     background-image: url(../images/slider-bg.png);
-    width: 100%;
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
+    /* z-index: -1 !important; */
 }
 
-.banner-text-wrap h2 {
-    font-size: 72px;
-    color: #595959;
-    font-weight: 700;
-}
 
 .banner-text-wrap p {
     font-size: 15px;
@@ -52,86 +37,9 @@
 }
 
 
-.banner-text-wrap a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #595959;
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------- 
-  navbar-end
---------------------*/
-
-
-
-
-/*--------------- 
-  carousel-start 
---------------------*/
-
-.carousel-item {
-    position: relative;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 25%;
-
-}
-
-.carousel-caption h2 {
-    font-size: 72px;
-    color: #595959;
-    font-weight: 700;
-}
-
-.carousel-caption p {
-    font-size: 15px;
-    color: #343434;
-
-}
-
-.carousel-caption a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #595959;
-
-}
-
-.btn-one:hover {
-    color: #212529 !important;
-
-}
 
 .blue {
     color: #0d6efd;
@@ -142,78 +50,26 @@
 --------------------*/
 
 .content-main {
-    position: absolute;
+    /* position: absolute;
     bottom: -21%;
-    left: 7%;
-    z-index: 1;
-}
-
-.content-wrap {
-    border-radius: 15px;
-}
-
-.content-text h2 {
-    font-size: 22px;
-    margin-bottom: 7px;
-}
-
-.content-text p {
-    font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    left: 7%; */
+    z-index: 1 !important;
 }
 
 .hidden {
     visibility: hidden;
 }
 
-.Wordpress-content h2 {
-    font-size: 37px;
-    font-weight: 600;
-    line-height: 1.5;
-
-}
-
-hr {
-    width: 50px;
-    height: 2px;
-    opacity: 1;
-}
-
-.container-service-main {
-    overflow: hidden;
-}
 
 
 
 .background-image {
     background-image: url(../images/benner-bg.png);
-    width: 100%;
-    height: 30vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.Wordpress-content a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #595959;
-}
-
-.service-contant a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #595959;
-}
 
 .service-contant {
     transition: all .3s;
@@ -239,23 +95,11 @@ hr {
     background-color: #e7e8fe;
 }
 
-.card-body a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #595959;
-
-}
-
 .card-one {
     background: none;
 }
 
 .card-two {
-    /* background-color: azure; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -264,33 +108,14 @@ hr {
     overflow: hidden;
 }
 
-.counter-up i {
-    /* line-height: 15px; */
-    font-size: 30px !important;
-}
-
-.counter-up h2 {
-    /* line-height: 15px; */
-    font-size: 30px !important;
-}
-
-.counter-up {
-    /* line-height: 15px; */
-    font-size: 15px !important;
-}
 
 .img-overley-contant-icon {
     position: absolute;
     top: 0;
-    width: 100%;
     min-height: 356px;
     background-color: #f9f9f9e3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
     transition: all .3s;
+    opacity: 0;
 
 }
 
@@ -299,28 +124,6 @@ hr {
     transform: scale(.86);
 }
 
-.pricing h2 {
-    font-size: 24px;
-    color: #3f3f3f;
-    font-weight: 500 !important;
-}
-
-.pricing p {
-    font-weight: 400;
-    line-height: 2;
-}
-
-
-.pricing a {
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #595959 !important;
-
-}
 
 .swiper-bg-img {
     background-image: url(../images/banner.png);
@@ -389,3 +192,4 @@ hr {
 .red {
     color: red;
 }
+

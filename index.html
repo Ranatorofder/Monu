@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/4918c864d2.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -63,13 +64,12 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid position-relative">
         <div class="row">
             <div class="col">
-                <!-- Swiper -->
                 <div class="swiper mySwiper-one">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <!-- <div class="swiper-slide">
                             <div
                                 class="text-center d-flex justify-content-center flex-column align-items-center  baner-bg-img">
                                 <div class="bg-socal-icon pb-4 blue">
@@ -86,20 +86,23 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> -->
                         <div class="swiper-slide">
                             <div
-                                class="text-center d-flex justify-content-center flex-column align-items-center  baner-bg-img">
-                                <div class="bg-socal-icon pb-4 blue">
-                                    <i class="fa-brands fa-twitter me-3 fs-5"></i>
-                                    <i class="fa-brands fa-facebook me-3  fs-5"></i>
-                                    <i class="fa-brands fa-instagram me-3  fs-5"></i>
-                                    <i class="fa-brands fa-linkedin-in me-3  fs-5"></i>
-                                    <div class="banner-text-wrap">
-                                        <h2>We Are Monu</h2>
-                                        <h2>Creative Agency</h2>
-                                        <p class="py-4">We Creates Awesome and Powerful Websites For Business!</p>
-                                        <a class="btn-one" href="">Purchase now</a>
+                                class=" text-center  d-flex justify-content-center flex-column align-items-centertext-center d-flex justify-content-center flex-column align-items-center   baner-bg-img  vw-100 vh-100">
+                                <div class="">
+                                    <div class="bg-socal-icon pb-4">
+                                        <i class="fa-brands blue fa-twitter me-3 fs-5"></i>
+                                        <i class="fa-brands blue fa-facebook me-3  fs-5"></i>
+                                        <i class="fa-brands blue fa-instagram me-3  fs-5"></i>
+                                        <i class="fa-brands blue fa-linkedin-in me-3  fs-5"></i>
+                                        <div class="banner-text-wrap">
+                                            <h1 class="display-2 gray fw-bold">We Are Monu</h1>
+                                            <h2 class="display-2 gray fw-bold">Creative Agency</h2>
+                                            <p class="py-4">We Creates Awesome and Powerful Websites For Business!</p>
+                                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6 "
+                                                href="">Purchase now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +116,7 @@
     </div>
     </div>
 
-    <section class="pb-5 content-main">
+    <!-- <section class=" content-main position-absolute bottom-0 top-75 start-0 ">
         <div class="container content-wrap py-3 text-white bg-primary">
             <div class="row">
                 <div class="col-md-4 ">
@@ -140,9 +143,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class=" hidden">
+    <!-- <section class=" hidden">
         <div class="container ">
             <div class="row">
                 <div class="col-md-6">
@@ -160,22 +163,23 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="pt-5 ">
         <div class="container ">
             <div class="row">
                 <div class="col-md-6">
                     <div>
-                        <div class="Wordpress-content">
-                            <h2>We are the leader in Wordpress Theme</h2>
-                            <hr class="blue">
+                        <div class="Wordpress-content pt-5 px-5">
+                            <h2 class="h2 fw-bold ">We are the leader in Wordpress Theme</h2>
+
                             <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor
                                 sit amet, consectetur adipisicing elit,</p>
                             <div class="pt-4">
-                                <a class="btn-one" href="">Read more</a>
+                                <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6" href="">Read
+                                    more</a>
                             </div>
                         </div>
                     </div>
@@ -183,7 +187,7 @@
                 <div class="col-md-6">
                     <div>
                         <div class="Wordpress-img">
-                            <img class="img-fluid" src="images/laptop2.png" alt="">
+                            <img class="img-fluid pt-5 px-5 " src="images/laptop2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -192,17 +196,16 @@
     </section>
 
 
-    <section>
-        <div class="container-fluid">
+    <section class=" overflow-hidden background-image py-5">
+        <div class="container  ">
             <div class="row">
                 <div class="col">
-                    <div
-                        class="text-center  background-image d-flex justify-content-center flex-column align-items-center">
-                        <div class="">
+                    <div class="text-center  d-flex justify-content-center flex-column align-items-center">
+                        <div>
                             <h2>Are you ready to be success with us?</h2>
                             <p>Tell us about your story and your project.</p>
                         </div>
-                        <form class="row pt-4 g-3">
+                        <form class="row pt-4 g-3 d-flex justify-content-center flex-row align-items-center">
 
                             <div class="col-auto">
                                 <label for="inputPassword2" class="visually-hidden">name</label>
@@ -220,7 +223,7 @@
                                     placeholder="Your phone">
                             </div>
 
-                            <div class="col-auto">
+                            <div class="col-md-2 pt-3">
                                 <button type="submit" class="btn btn-primary px-4 rounded-pill mb-3">Subscribe</button>
                             </div>
                         </form>
@@ -235,9 +238,9 @@
         ------------------>
 
     <section class="py-5">
-        <div class="container-fluid container-service-main">
-            <div class="row gx-5">
-                <div class="col-md-3">
+        <div class="container-fluid overflow-hidden">
+            <div class="row gy-5 ">
+                <div class="col-md-3 p-4">
                     <div class="text-center p-4 service-contant  border">
                         <div class="pt-4">
                             <i class="fa-solid fa-pen-ruler fs-1 blue"></i>
@@ -247,7 +250,8 @@
                             incididLorem
                             ipsum dolor sit amet, consectetur adipisicing</p>
                         <div class="py-4">
-                            <a class="btn-one" href="">View Services</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6" href="">View
+                                Services</a>
                         </div>
                     </div>
                 </div>
@@ -261,7 +265,8 @@
                             incididLorem
                             ipsum dolor sit amet, consectetur adipisicing</p>
                         <div class="py-4">
-                            <a class="btn-one" href="">View Services</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6" href="">View
+                                Services</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +280,8 @@
                             incididLorem
                             ipsum dolor sit amet, consectetur adipisicing</p>
                         <div class="py-4">
-                            <a class="btn-one" href="">View Services</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6" href="">View
+                                Services</a>
                         </div>
                     </div>
                 </div>
@@ -289,7 +295,8 @@
                             incididLorem
                             ipsum dolor sit amet, consectetur adipisicing</p>
                         <div class="py-4">
-                            <a class="btn-one" href="">View Services</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6" href="">View
+                                Services</a>
                         </div>
                     </div>
                 </div>
@@ -298,20 +305,19 @@
     </section>
 
 
-    <section class="py-5 card-wrap">
-        <div class="container">
+    <section class=" card-wrap">
+        <div class="container p-5">
             <div class="text-center pb-5">
                 <h2>Our pricing</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="row d-flex justify-content-center align-items-center">
+            <div class="row gy-5 text-center">
                 <div class="col-md-4">
                     <div class="card card-one  text-center" style="width: 18rem;">
                         <div class="card-body p-4">
                             <h4 class="card-title">Basics</h4>
                         </div>
-
-                        <div class="card-body list-group  text-center">
+                        <div class="card-body list-group pr-0 text-center">
                             <h1 class="blue"><sup>$</sup>100</h1>
                             <p class="pt-2">PSD Included</p>
                             <p class="pt-2">Free Installation</p>
@@ -319,7 +325,8 @@
                             <p class="pt-2">Free Six Months Hosting</p>
                             <p class="pt-2">Full Support</p>
                             <div class="pt-5 pb-2">
-                                <a class="btn-one" href="">Purshase</a>
+                                <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6"
+                                    href="">Purshase</a>
                             </div>
                         </div>
                     </div>
@@ -338,7 +345,8 @@
                             <p class="pt-2">Free Six Months Hosting</p>
                             <p class="pt-2">Full Support</p>
                             <div class="pt-5 pb-2">
-                                <a class="btn-one" href="">Purshase</a>
+                                <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6"
+                                    href="">Purshase</a>
                             </div>
                         </div>
                     </div>
@@ -357,7 +365,8 @@
                             <p class="pt-2">Free Six Months Hosting</p>
                             <p class="pt-2">Full Support</p>
                             <div class="pt-5 pb-2">
-                                <a class="btn-one" href="">Purshase</a>
+                                <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4 fw-bold fs-6"
+                                    href="">Purshase</a>
                             </div>
                         </div>
                     </div>
@@ -380,7 +389,7 @@
                 <div class="col-md-3 ">
                     <div
                         class="text-center text-white py-4 d-flex justify-content-center flex-column align-items-center  counter-up">
-                        <i class="fa-regular fa-address-card"></i>
+                        <i class="fa-regular fa-address-card fs-3"></i>
                         <h2 class="counter pt-3">9720</h2>
                         <p>Running Design</p>
                     </div>
@@ -388,7 +397,7 @@
                 <div class="col-md-3 ">
                     <div
                         class="text-center text-white py-4 d-flex justify-content-center flex-column align-items-center  counter-up">
-                        <i class="fa-solid fa-mug-hot"></i>
+                        <i class="fa-solid fa-mug-hot fs-3"></i>
                         <h2 class="counter pt-3">52300</h2>
                         <p>Coffe cups</p>
                     </div>
@@ -396,7 +405,7 @@
                 <div class="col-md-3 ">
                     <div
                         class="text-center text-white py-4 d-flex justify-content-center flex-column align-items-center  counter-up">
-                        <i class="fa-solid fa-clipboard"></i>
+                        <i class="fa-solid fa-clipboard fs-3"></i>
                         <h2 class="counter pt-3">35000</h2>
                         <p>Complete Project</p>
                     </div>
@@ -410,11 +419,12 @@
         ------------------->
     <section class="">
         <div class="container-fluid">
-            <div class="row gx-0">
+            <div class="row gx-0 gy-5">
                 <div class="col-md-3">
                     <div class="img-overley">
                         <img class="img-fluid" src="images/t-1.png" alt="">
-                        <div class="img-overley-contant-icon text-center  pb-3 ">
+                        <div
+                            class="img-overley-contant-icon text-center w-100 d-flex justify-content-center flex-column align-items-centertext-center pb-3 ">
                             <h4>Naimur Rahman</h4>
                             <p>creative builder</p>
                             <div class="text-black">
@@ -429,7 +439,8 @@
                 <div class="col-md-3">
                     <div class="img-overley">
                         <img class="img-fluid" src="images/t-2.png" alt="">
-                        <div class="img-overley-contant-icon text-center  pb-3 ">
+                        <div
+                            class="img-overley-contant-icon text-center  w-100 d-flex justify-content-center flex-column align-items-centertext-center  pb-3 ">
                             <h4>Najir Ahamed</h4>
                             <p>creative builder</p>
                             <div class="text-black">
@@ -444,7 +455,8 @@
                 <div class="col-md-3">
                     <div class="img-overley">
                         <img class="img-fluid" src="images/t-3.png" alt="">
-                        <div class="img-overley-contant-icon text-center  pb-3 ">
+                        <div
+                            class="img-overley-contant-icon  w-100 text-center d-flex justify-content-center flex-column align-items-centertext-center   pb-3 ">
                             <h4>Soyab Ahamed</h4>
                             <p>creative builder</p>
                             <div class="text-black">
@@ -459,7 +471,8 @@
                 <div class="col-md-3">
                     <div class="img-overley">
                         <img class="img-fluid" src="images/t-4.png" alt="">
-                        <div class="img-overley-contant-icon text-center  pb-3 ">
+                        <div
+                            class="img-overley-contant-icon text-center text-center d-flex justify-content-center flex-column align-items-centertext-center w-100 pb-3 ">
                             <h4>Sabbir Rahman</h4>
                             <p>creative builder</p>
                             <div class="text-black">
@@ -481,39 +494,43 @@
                 <div class="col-md-4">
                     <div class="pricing  p-4">
                         <img class="img-fluid" src="images/w-1.png" alt="">
-                        <h2>How to Improve Your Sales Volume</h2>
+                        <h4>How to Improve Your Sales Volume</h4>
                         <p>07 MAY</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc ididunt
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc
+                            ididunt
                             ut
                             labore et dolore.Lorem ipsum dolor sit amet.</p>
                         <div class="pt-4">
-                            <a class="btn-one" href="">Continue Reading</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4  fs-6" href="">Continue
+                                Reading</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="pricing  p-4">
                         <img class="img-fluid" src="images/w-2.png" alt="">
-                        <h2>How to Improve Your Sales Volume</h2>
+                        <h4>How to Improve Your Sales Volume</h4>
                         <p>07 MAY</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc ididunt
                             ut
                             labore et dolore.Lorem ipsum dolor sit amet.</p>
                         <div class="pt-4">
-                            <a class="btn-one" href="">Continue Reading</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4  fs-6" href="">Continue
+                                Reading</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="pricing p-4">
                         <img class="img-fluid" src="images/w-3.png" alt="">
-                        <h2>How to Improve Your Sales Volume</h2>
+                        <h4>How to Improve Your Sales Volume</h4>
                         <p>07 MAY</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc ididunt
                             ut
                             labore et dolore.Lorem ipsum dolor sit amet.</p>
                         <div class="pt-4">
-                            <a class="btn-one" href="">Continue Reading</a>
+                            <a class="btn boder border-primary rounded-pill p-2 pe-4 ps-4  fs-6" href="">Continue
+                                Reading</a>
                         </div>
                     </div>
                 </div>
@@ -526,7 +543,6 @@
         <div class="container-fluid  ">
             <div class="row ">
                 <div class="col swiper-bg-img slider-main">
-                    <!-- Swiper -->
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -568,7 +584,7 @@
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -598,9 +614,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <footer class="py-4 bg-dark">
+    <!-- <footer class="py-4 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -687,7 +703,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 
 
